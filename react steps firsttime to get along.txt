@@ -1,0 +1,74 @@
+https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets
+
+
+kulka@LAPTOP-HAS54S28 MINGW64 /d
+$ mkdir ReactLessons
+
+kulka@LAPTOP-HAS54S28 MINGW64 /d
+$ cd ReactLessons/
+
+kulka@LAPTOP-HAS54S28 MINGW64 /d/ReactLessons
+$ npx create-react-app react-tic-tac-toe
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in D:\ReactLessons\react-tic-tac-toe.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1413 packages in 59s
+
+226 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 74 packages, and changed 1 package in 6s
+
+235 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1487 packages in 2s
+
+235 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created react-tic-tac-toe at D:\ReactLessons\react-tic-tac-toe
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react-tic-tac-toe
+  npm start
+
+Happy hacking!
