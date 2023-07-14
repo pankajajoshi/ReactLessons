@@ -1,3 +1,33 @@
+import logo from './logo.svg';
+import './App.css';
+import { useState } from 'react'
+import ProductList from './components/ProductsList';
+import products from './data';
+import Cart from './components/Cart';
+
+function App() {
+
+  const [cart, setCart] = useState([])
+
+  return (
+    <div className="App">
+      <h1> Hi There! </h1>
+      <div className="container">
+        <ProductList products={products} setCart={setCart} cart={cart}/>
+
+        <Cart cart={cart} />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
 // import logo from './logo.svg';
 // import './App.css';
 // import { useState } from 'react'
@@ -46,45 +76,45 @@
 
 // export default App;
 
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react'
-import ProductList from './components/ProductsList';
-import products from './data';
-function App() {
+//import logo from './logo.svg';
+//import './App.css';
+// import { useState } from 'react'
+// import ProductList from './components/ProductsList';
+// import products from './data';
+// function App() {
 
-  const [cart, setCart] = useState([])
-  const [submission, setSubmission] = useState()
+//   const [cart, setCart] = useState([])
+//   const [submission, setSubmission] = useState()
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    setCart([...cart, submission])
-  }
+//   const handleSubmit = (event) => {
+//     event.preventDefault()
+//     setCart([...cart, submission])
+//   }
 
-  const handleChange = (event) => {
-    setSubmission(event.target.value)
-  }
+//   const handleChange = (event) => {
+//     setSubmission(event.target.value)
+//   }
 
-  return (
-    <div className="App">
-      <h1> Hi There! </h1>
+//   return (
+//     <div className="App">
+//       <h1> Hi There! </h1>
 
-      <ProductList product={products[0]}/>
+//       <ProductList product={products[0]}/>
 
-      <form onSubmit={handleSubmit}>
-        <input type="text" onChange={handleChange} />
-        <input type="submit" />
-      </form>
+//       <form onSubmit={handleSubmit}>
+//         <input type="text" onChange={handleChange} />
+//         <input type="submit" />
+//       </form>
 
-      <ul>
-        {cart.map((item, index) => {
-          return (
-            <li key={index}>{item}</li>
-          )
-        })}
-      </ul>
-    </div>
-  );
-}
+//       <ul>
+//         {cart.map((item, index) => {
+//           return (
+//             <li key={index}>{item}</li>
+//           )
+//         })}
+//       </ul>
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;

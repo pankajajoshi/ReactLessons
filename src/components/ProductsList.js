@@ -1,14 +1,35 @@
-
 import Product from "./Product"
 
 export default function ProductList (props) {
-    return (
-        <ul>
-            <Product product={props.product}/>
-            {/* <li>
-                {props.product.name}
-            </li> */}
-
-        </ul>
-    )
+  return (
+    <div>
+    <h2>Products</h2>
+    <ul>
+      {
+        props.products.map((product) => {
+          return (
+            <Product product={product} setCart={props.setCart} cart={props.cart} />
+          )
+        })
+      }
+    </ul>
+    </div>
+  )
 }
+// import Product from "./Product"
+
+// export default function ProductList (props) {
+//     return (
+//         <ul>
+//             {props.products.map((product) => 
+//             return(
+//                 <Product product={product} />
+//             ))}
+//             {/* <Product product={props.product}/> */}
+//             {/* <li>
+//                 {props.product.name}
+//             </li> */}
+
+//         </ul>
+//     )
+// }
