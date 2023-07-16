@@ -8,9 +8,10 @@
  font-weight: bold;
  
 }
-tr{
-  padding-inline: 5%;
+li{
+  padding: 0.3%;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -8,12 +8,16 @@ function Scores(scoreData) {
 
       {scoreData?.scoreData?.map((score, index) => (
         <ul>
-          <td>
-           <tr>Date:  {score.date}</tr>
-            <br ></br>
-           <tr>Score : {score.score}</tr>
            <br></br>
-           </td>
+          <li>
+           Date:  {score.date}
+           </li>
+          
+           <br></br>
+           <li>
+            
+           Score : {score.score}
+           </li>
         </ul>
       )
       )}
