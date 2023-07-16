@@ -72,3 +72,29 @@ We suggest that you begin by typing:
   npm start
 
 Happy hacking!
+
+==============================================================================================================
+state explained by devin
+
+what state the application is in? Currently
+so state is the particular view of a react component based on its data. That's a good way of describing it.
+you can base a lot of things on state
+and state can be changed at will.
+And the biggest reason why people like react
+is that every time state is updated
+it re-renders that component that it's sorted
+and that was the thing we talked about yesterday. with the component hierarchy and react only re-rendering the parts that it needs.
+So that's when that happens. So anytime that changes is when the re-render happens. we can imagine we have a component that has our shopping cart.
+At first our card is empty, our state would likely be in our empty array. Then we can add an item into our cart. We'd push an object like this one into our cart.
+Now, our view of our shopping cart will change, based on the data or the state of the shopping cart. So you know how, on a website. let's use battle. The
+cart up here again. So if we click on cart.
+we see your Amazon card is empty.
+But if we go back. and we just add something random to it.
+What do I add to my card quickly.
+yeah, if I come over here
+and I add to cart. Then we check my cart. Now we have the thing at our cart. and that's based on state.
+The state of our application would have this in the cart object, the cart array. Rather.
+So.
+we are going to build today an online store.
+not a working one.
+but just one to give us an example of how to us
