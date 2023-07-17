@@ -1,6 +1,7 @@
 export default function Footerbar(){
     return <footer className="footerbar">
-      <div>
+      
+      <div >
       <ul>
       <a href="/" className="footertab">Home</a>
       
@@ -15,6 +16,9 @@ export default function Footerbar(){
       
       </ul>
       </div>
+      
+      <ul>   <div className="copyrightfooter">©2013 Valet Industries,Inc</div></ul>  
+      
      </footer>
      }
     
