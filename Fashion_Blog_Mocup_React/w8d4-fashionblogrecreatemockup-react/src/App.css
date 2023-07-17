@@ -6,7 +6,22 @@ body{
   margin:0;
   padding :3em;
 }
-
+.img2content,img1content{
+  padding: 3em;
+  margin-left: 2%;
+}
+.firstpara,.secondpara{
+  font-size: 15px;
+  color:grey;
+  justify-content: center;
+  
+}
+.divfirstpara,.divsecondpara{
+  margin-left:2%;
+  margin-right: 2%;
+  width:70%;
+  padding:3em;
+}
 .titlecontent{
   font-size:40px;
   padding-left: 2em ;
@@ -17,11 +32,20 @@ body{
   font-size: 20px;
   padding-left: 4em;
 }
+.copyrightfooter{
+  color:grey;
+  padding: 4em;
+  
+}
+.copyrightfooter div{
+ width:100%;
+ display: flex;
+}
 .firsttab,.footertab{
   justify-content:space-between;
   gap:20em;
 }
-.nav,.footer{
+.nav,.footerbar{
   background-color: rgb(255, 255, 255);
   color:rgb(145, 140, 140);
   display:flex;
@@ -30,30 +54,30 @@ body{
   gap:15rem;
   padding: 2em;
 }
-.footer div{
+.footerbar div{
   padding:3rem;
   justify-content: space-between;
   width:100%;
   row-gap: 4rem;
 }
-.footer ul{
+.footerbar ul{
   padding:0;
   margin:0;
   list-style:none;
   display:flex;
-  gap:1rem;
+  gap:3rem;
 }
-.footer a{
+.footerbar a{
   color:inherit;
   height:100%;
   display: flex;
   align-items: center;
-  padding: .25
+  padding: .2;
 }
-.footer li.active{
+.footerbar li.active{
   background-color:#555;
 }
-.footer li:hover{
+.footerbar li:hover{
   background-color: #777;
 }
 .nav div{
@@ -71,7 +95,7 @@ body{
   margin:0;
   list-style:none;
   display:flex;
-  gap:1rem;
+  gap:3rem;
 }
 .nav a{
   color:inherit;
