@@ -25,10 +25,10 @@ function App() {
              className="titlecontent">On the Street in Brooklyn</div>
           
           
-            <div>
+            <div className='img2content'>
               <img src={img1} alt="img1" /></div>
-              <div>
-              <span className="firstpara">
+              <div className="divfirstpara">
+              <span className="firstpara" >
                 Cary ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -36,9 +36,9 @@ function App() {
                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                 </div>
              
-              <div>
+              <div className='img2content'>
               <img src={img2} alt="img2" /></div>
-              <div>
+              <div className="divsecondpara">
               <span className="secondpara">Selfies ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -48,6 +48,7 @@ function App() {
         </div>
       </article>
       <Footerbar />
+                <div className="copyrightfooter">©2013 Valet Industries,Inc</div> 
     </div> 
   );
 }
