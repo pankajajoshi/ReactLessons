@@ -13,11 +13,11 @@ export default function Footerbar(){
       <a href="/" className="footertab">AdWatch</a>
       <a href="/" className="footertab">About</a>
       <a href="/" className="footertab">Tips</a>
-      
       </ul>
+      <p className="copyrightfooter">©2013 Valet Industries,Inc</p>
       </div>
       
-      <ul>   <div className="copyrightfooter">©2013 Valet Industries,Inc</div></ul>  
+        
       
      </footer>
      }
