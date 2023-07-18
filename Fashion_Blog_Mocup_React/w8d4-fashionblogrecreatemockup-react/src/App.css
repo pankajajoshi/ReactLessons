@@ -23,7 +23,7 @@ body{
   margin: 0.1em 0.1em 0.2em 0;
   
 }
-.secondpara:first-letter {
+.secondpara:first-letter {  
   /* font-family:  sans-serif; */
   float: left;
   font-size: 6rem;
