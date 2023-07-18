@@ -82,7 +82,7 @@ hr{
   display:flex;
   justify-content: space-between;
   align-items:stretch;
-  gap:15rem;
+
   padding: 2em;
 }
 .footerbar div{
@@ -96,7 +96,7 @@ hr{
   margin:0;
   list-style:none;
   display:flex;
-  gap:3rem;
+  gap:4rem;
 }
 .footerbar a{
   color:inherit;
@@ -104,6 +104,7 @@ hr{
   display: flex;
   align-items: center;
   padding: .2;
+  text-decoration: none;
 }
 .footerbar li.active{
   background-color:#555;
@@ -126,14 +127,14 @@ hr{
   margin:0;
   list-style:none;
   display:flex;
-  gap:3rem;
+  gap:6rem;
 }
 .nav a{
   color:inherit;
   height:100%;
   display: flex;
   align-items: center;
-  padding: .25
+  padding: .25;
 }
 .nav li.active{
   background-color:#555;
