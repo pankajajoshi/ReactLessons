@@ -16,7 +16,7 @@ body{
   
 }
 .firstpara:first-letter {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   float: left;
   font-size: 6rem;
   line-height: 0.65;
@@ -24,7 +24,7 @@ body{
   
 }
 .secondpara:first-letter {
-  font-family:  sans-serif;
+  /* font-family:  sans-serif; */
   float: left;
   font-size: 6rem;
   line-height: 0.65;
