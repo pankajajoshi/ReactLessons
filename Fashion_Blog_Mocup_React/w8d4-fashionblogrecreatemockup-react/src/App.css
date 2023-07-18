@@ -13,14 +13,32 @@ body{
 .firstpara,.secondpara{
   font-size: 15px;
   color:grey;
-  justify-content: center;
   
 }
+.firstpara:first-letter {
+  font-family: sans-serif;
+  float: left;
+  font-size: 6rem;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
+  
+}
+.secondpara:first-letter {
+  font-family:  sans-serif;
+  float: left;
+  font-size: 6rem;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
+  
+
+}
+
 .divfirstpara,.divsecondpara{
   margin-left:2%;
   margin-right: 2%;
   width:70%;
   padding:3em;
+justify-items: stretch;
 }
 .titlecontent{
   font-size:40px;
@@ -34,20 +52,33 @@ body{
 }
 .copyrightfooter{
   color:grey;
-  padding: 4em;
-  
+  padding: .5em;
+  float:left;
+
 }
-.copyrightfooter div{
- width:100%;
- display: flex;
+hr{
+  margin-left: 80px;
+  margin-right:400px;
 }
+.continue{
+  color:rgb(158, 20, 20);
+  float:right;
+  font-weight: bold;
+}
+
 .firsttab,.footertab{
   justify-content:space-between;
   gap:20em;
 }
+.nav{
+  color:grey;
+}
+.footerbar{
+  color:rgb(177, 25, 25);
+}
 .nav,.footerbar{
   background-color: rgb(255, 255, 255);
-  color:rgb(145, 140, 140);
+ 
   display:flex;
   justify-content: space-between;
   align-items:stretch;
