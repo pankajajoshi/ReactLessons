@@ -24,10 +24,11 @@ export default function Form(props) {
             onChange={handleChange}
             value={nums}
           />
-          <input className="button" type="submit" value="submit" />
+          <input className="submitbutton" type="submit" value="submit" />
           
         </div>
       </form>
+      <footer className="footer">@Luhn Algorithm Validator</footer>
     </div>
   );
 }

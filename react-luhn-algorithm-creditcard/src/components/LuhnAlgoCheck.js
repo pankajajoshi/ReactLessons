@@ -1,21 +1,25 @@
 
 
 
-export default function LuhnAlgoCheck ({validateNum}) {
-   
-let sum=validateNum;
+export default function LuhnAlgoCheck (props) {
+   console.log(props,props.display);
+// let sum=validateNum;
 
   return (
-    <>
+    <div>
+      {props.display === 'true'? 
+        <h2 className='valid'> Valid Card Number</h2> : <h2 className="invalid"> Invalid Card Number </h2>  
+    }
+      </div>
     
-      
+/*       
         sum % 10 === 0 && validateNum.length === 16 ? (
           <h2 className="result">Valid Number</h2>
         ) : (
         <h2 className="result">You have entered an invalid number</h2>
         )
-      
-  </>
+       */
+  
   )
 }
 

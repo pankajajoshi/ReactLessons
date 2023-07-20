@@ -58,27 +58,22 @@ let sum = 0;
         console.log(sum);
         if (sum % 10 === 0 && nums.length === 16) {
           console.log("Valid Card Number");
-          setCardValidity('Valid Card Number');
+          setCardValidity('true');
           
         } else {
           console.log("Invalid Card Number");
-          setCardValidity('Invalid Card Number');
+          setCardValidity('false');
         }
 
     }
   });
-
-
-
-
- 
-
   return (
     <div className="cardheader">
       <h1>CREDIT CARD VALIDATOR</h1>
       <div className="card"></div>
       <CreditCardForm cardSearch={setNum} />
-     <p>{cardValidity}</p>
+      <LuhnAlgoCheck display={cardValidity} />
+    
      
     </div>
     

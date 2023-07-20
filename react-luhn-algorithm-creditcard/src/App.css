@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: rgb(231, 244, 248);
+  background-color: rgb(127, 197, 218);
   align-items: center;
   margin-top:10%;
 }
@@ -71,6 +71,13 @@ field:hover {
 }
 .footer{
   height:fit-content;
+  outline-color: blueviolet;
+}
+.valid{
+  color:green;
+}
+.invalid{
+  color:red;
 }
 
 /* .input-field {
