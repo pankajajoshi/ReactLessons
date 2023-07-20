@@ -1,25 +1,33 @@
-import { useState } from "react"
+import { useState } from "react";
 
-export default function CreditCardForm(props) {
-  const [validateNum, setValidateNum] = useState("")
+export default function Form(props) {
+  const [nums, setNumber] = useState("");
 
-  const handleChange = (evt) => {
-    const noLetters = evt.target.value.replace(/[^0-9.]/g, '')
-    setValidateNum(noLetters); 
-  }
+  const handleChange = (event) => {
+    setNumber(event.target.value);
+  };
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    props.numberValidated(validateNum)
-  }
-
-  return(
-    <>
-      <form 
-        onSubmit={handleSubmit}>
-        <input type="text" maxLength={16} onChange={handleChange} placeholder="Please Enter your 16 digit number" className="input-field" value={validateNum}/>
-        <input className="submitbutton" type="submit" value="Submit" />
+  return (
+    <div>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          console.log('nums', nums, ' props: ', props);
+          props.cardSearch(nums);
+        }}
+      >
+        <div className="input">
+          <p>Enter a card number</p>
+          <input
+            className="field"
+            type="number"
+            onChange={handleChange}
+            value={nums}
+          />
+          <input className="button" type="submit" value="submit" />
+          
+        </div>
       </form>
-    </>
-  )
+    </div>
+  );
 }
