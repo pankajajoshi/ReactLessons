@@ -2,73 +2,17 @@
 ![](PKcreatedFashionMockupPage.gif)
 
 
-# Getting Started with Create React App
+Fashion Mocup Using REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Requirements Faithfully reproduce the mockup in HTML & CSS.
 
-In the project directory, you can run:
+goal
 
-### `npm start`
+Build Your HTML Create your html boilerplate in the index.htmlfile. Add a new file called style.cssand link it to the HTML file. In the body of your HTML, use header, main, and footertags to clearly define the different parts of the page. Use an h1tag for the site title and an h2for the subtitle inside the page header. Use navtags inside the page header to create an accessible navigation. Follow the example in the W3C Web Accessibility Initiative (WAI) Guidelines to format your navigation:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Wrap each link in an anchor tag Wrap each anchor tag in a list item Wrap all of the list item tags in an unordered list tag Place the unordered list inside the the nav tag and give it attributes for aria-label="Main Navigation"and role="navigation" Mark up both of the blog posts using the articletag. Use this W3C WAI Guideline example, to help you structure your blog post content. Follow the pattern! Make sure there is a ptag that contains some lorem ipsum text (Remember you can create this with Emmet by typing p>loremand pressing tab)! Make sure your images all have altattributes so that they are accessible. Inside the page footer, use the same technique you used earlier to create a semantic and accessible navigation, using a wrapping navtag, unordered list and the aria attributes. Add a copyright in the footer. For the © symbol, use an html entity. Make sure to add and commit your changes when you've got the html done!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Style Your Page Use a borderonly on the left side of the page's htmlelement. It should have a width of 5pxand a color of lightgray. Set the bodyelement's min-heightto be at least 100% of the viewport height. Also, use the font-familyproperty to set the entire page to use sans-seriffonts. Give the bodya max-widthof 1000pxand center it on the page with the margin auto technique. The border is too close to our text and we've got an issue with margin-collapse at the top of the page! Add paddingto the header, mainand footerelements of 1remon the top and bottom and 2remon the left and right to fix these issues. For the h1on the page we want the color to be tomato. Set all of the images to have a widthof 100%. For your site navigation, you'll need to remove all of the padding on the ulelements and then set it's list-style-typeto none. It would be a good idea to use a class to style the navigation so that you can still make a bulleted list on your page. Use Flexbox to style the ulfor the navigation elements. On the top navigation use the space-betweenrule to have the menu items spread across their container evenly. Set the color for the anchors inside the main navigation to be lightgrayand the footer navigation to be tomato. Style the title of each of your blog posts so that they are larger. Style the 'continues...' anchor tags so that they are aligned to the right and are bold and tomato colored. Set the margin on the bottom the articletags to be 4rem. Also, add a 1pxsolid border in lightgrayto the bottom of each one and give each padding on the bottom of 2rem. For the ptag inside your article, use the pseudo-element ::first-letter to style the drop cap and set it's color to lightgray. Style the copyright so it is lightgray. Awesome job, add, commit and push changes to create your pull request!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Part 2 REMAKE ENTIRE PROJECT IN REACT and deploy to NETLIFY Use App.js, Header.js, Nav.js, Article.js, Footer.js
