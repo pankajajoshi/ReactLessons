@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: rgb(127, 197, 218);
+  background-color: rgb(100, 222, 243);
   align-items: center;
   margin-top:10%;
 }
@@ -23,9 +23,9 @@ body {
   color: red;
 }
 form
-{ padding: 20px;
+{ padding: 10px;
   border-radius: 2px;
-  box-shadow: 1px 0.5px 0.5px 1px rgba(0, 0, 0, 0.15);
+   box-shadow: 1px 0.5px 0.5px 1px rgba(0, 0, 0, 0.15); 
   margin: 3px;
   background-color: white;
 }
@@ -62,13 +62,13 @@ field:hover {
   letter-spacing: 1.5px;
 }
 
-.input > p {
+/* .input > p {
   margin: 0;
   margin-bottom: 3px;
   font-size: 0.9rem;
   color: gray;
   width: 75%;
-}
+} */
 .footer{
   height:fit-content;
   outline-color: blueviolet;
@@ -78,6 +78,10 @@ field:hover {
 }
 .invalid{
   color:red;
+}
+.usermsg{
+  color:black;
+  font-weight: bold;
 }
 
 /* .input-field {

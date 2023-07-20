@@ -12,14 +12,7 @@ export default function LuhnAlgoCheck (props) {
     }
       </div>
     
-/*       
-        sum % 10 === 0 && validateNum.length === 16 ? (
-          <h2 className="result">Valid Number</h2>
-        ) : (
-        <h2 className="result">You have entered an invalid number</h2>
-        )
-       */
-  
+
   )
 }
 

@@ -17,7 +17,7 @@ export default function Form(props) {
         }}
       >
         <div className="input">
-          <p>Enter a card number</p>
+          <p className="usermsg">Enter Credit Card Number</p>
           <input
             className="field"
             type="number"
