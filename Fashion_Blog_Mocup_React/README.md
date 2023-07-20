@@ -1,7 +1,7 @@
 
 <h1>Fashion Mocup Using REACT</h1>
 
-![](PKcreatedFashionMocupPage.gif)
+![](PKcreatedFashionMockupPage.gif)
 
 
 
