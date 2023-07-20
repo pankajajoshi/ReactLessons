@@ -1,3 +1,10 @@
+
+<h1>Fashion Mocup Using REACT</h1>
+
+![](PKcreatedFashionMocupPage.gif)
+
+
+
 Requirements
 Faithfully reproduce the mockup in HTML & CSS.
 
